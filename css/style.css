@@ -1,0 +1,189 @@
+
+/* .navbar{
+    width: 1200px;
+    height: 200px;
+    background: blue;
+    float: left;
+    opacity: 1;
+}
+
+
+.mob_menu{
+    width: 100%;
+    min-height: 70px;
+    background: purple;
+    float: left;
+    display: none;
+}
+
+body{
+    background-image: url('https://www.muallim.edu.az/photos/13-11_1555071835.jpg');
+    background-size: cover;
+} */
+
+/* @media only screen and (max-width: 1220px) {
+    .navbar { 
+        opacity: 1;
+    }
+}
+@media only screen and (max-width: 1208px) {
+    .navbar { 
+        width: 100%;
+        min-height: 400px;
+        background: pink;
+        opacity: 0.5;
+    }
+
+    body{
+        background-image: url("https://portal.azertag.az/uploads/news-files/2023/May/zolotovolosiy-pingvin-2-544x364.jpg");
+        background-size: cover;
+    }
+} */
+
+/* @media only screen and (max-width: 1000px) {
+
+    body{
+        background-image: url("https://cdn.britannica.com/70/192570-138-848FB7B3/penguin-species-places-Galapagos-Antarctica.jpg?w=800&h=450&c=crop");
+        background-size: cover;
+    }
+
+    .navbar {
+        background: gold;
+        width: 100%;
+        display: none;
+    }
+
+    .mob_menu{
+        background: gold;
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    body{
+        background-image: url("https://cdn.britannica.com/70/192570-138-848FB7B3/penguin-species-places-Galapagos-Antarctica.jpg?w=800&h=450&c=crop");
+        background-size: cover;
+    }
+
+    .navbar {
+        background: gold;
+        width: 100%;
+        display: none;
+    }
+
+    .mob_menu{
+        background: gold;
+        display: block;
+    }
+
+   
+}
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+    body{
+        background: rgb(16, 203, 240);
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    body{
+        background: rgb(240, 2, 204);
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    body{
+        background: rgb(240, 2, 204);
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    body{
+        background: rgb(240, 2, 204);
+    }
+} */
+
+
+
+
+/* ----------------------------  */
+
+.nurcan{
+    width: 100%;
+    min-height: 600px;
+    background: blue;
+    float: left;
+    color: white;
+    font-size: 50px;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .nurcan{
+        width: 100%;
+        background: orange;
+        min-height: 200px;
+        font-size: 18px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 800px) {
+    .demo{
+
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
+
+
+
+/* ------------------ */
+
+
+@media only screen and (orientation: landscape) {
+    body {
+      background-color: red;
+    }
+  }
+
+  @media only screen and (orientation: portrait ) {
+    body {
+      background-color: purple;
+    }
+  }
+
+  @media screen and (max-width: 900px) and (min-width: 600px) {
+    div.example {
+      font-size: 50px;
+      padding: 50px;
+      border: 8px solid black;
+      background: yellow;
+    }
+  }
